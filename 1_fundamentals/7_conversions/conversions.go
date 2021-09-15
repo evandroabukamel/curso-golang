@@ -10,9 +10,9 @@ func main() {
 	y := 2
 	fmt.Println(x / float64(y))
 
-	note := 6.9
-	finalNote := int(note)
-	fmt.Println(finalNote)
+	score := 6.9
+	finalScore := int(score)
+	fmt.Println(finalScore)
 
 	// Careful...
 	fmt.Println("Test " + string(97))

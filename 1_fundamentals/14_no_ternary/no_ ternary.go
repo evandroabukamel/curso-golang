@@ -5,14 +5,14 @@ import "fmt"
 /*
 THERE IS NO TERNARY OPERATOR ON GOLANG.
 */
-func getResult(note float64) string {
-	if note >= 6 {
+func getResult(score float64) string {
+	if score >= 6 {
 		return "Approved"
 	}
 	return "Repproved"
 
 	// Inexistent alternative
-	// return note >= 6 ? "Apporved" : "Repproved"
+	// return score >= 6 ? "Apporved" : "Repproved"
 }
 
 func main() {
