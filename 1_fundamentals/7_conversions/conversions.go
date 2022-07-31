@@ -25,10 +25,10 @@ func main() {
 	fmt.Println("Test ", num-122)
 
 	// boolean, true == 1
-	b, _ := strconv.ParseBool("1")
+	b, _ := strconv.ParseBool("false")
 	if b {
-		fmt.Println("b is true")
+		fmt.Println("b is", strconv.FormatBool(b))
 	} else {
-		fmt.Println("b is false")
+		fmt.Println("b is", strconv.FormatBool(b))
 	}
 }
